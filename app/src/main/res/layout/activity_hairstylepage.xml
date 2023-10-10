@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img"
+    android:id="@+id/layout"
+    tools:context=".FrontPage">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/material_dynamic_primary90">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="100dp"
+                android:fontFamily="sans-serif-black"
+                android:text="Men Haircuts"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textSize="50dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="300dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginRight="100dp"
+                android:background="#c1c1c1"
+                android:src="@drawable/midfader" />
+
+            <Button
+                android:id="@+id/midfade"
+                android:layout_width="218dp"
+                android:layout_height="65dp"
+                android:layout_marginStart="100dp"
+                android:layout_marginLeft="150dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginEnd="100dp"
+                android:layout_marginRight="150dp"
+                android:layout_marginBottom="50dp"
+                android:text="Mid Fade"
+                app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="300dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="100dp"
+                android:layout_marginRight="100dp"
+                android:background="#c1c1c1"
+                android:src="@drawable/taper" />
+
+            <Button
+                android:id="@+id/taper"
+                android:layout_width="218dp"
+                android:layout_height="65dp"
+                android:layout_marginStart="100dp"
+                android:layout_marginLeft="200dp"
+                android:layout_marginTop="100dp"
+                android:layout_marginEnd="100dp"
+                android:layout_marginRight="150dp"
+                android:layout_marginBottom="50dp"
+                android:text="Taper Fade"
+                app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="300dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="100dp"
+                android:layout_marginRight="100dp"
+                android:background="#c1c1c1"
+                android:src="@drawable/fringeman" />
+
+            <Button
+                android:id="@+id/fringeman"
+                android:layout_width="218dp"
+                android:layout_height="65dp"
+                android:layout_marginStart="100dp"
+                android:layout_marginLeft="200dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginEnd="100dp"
+                android:layout_marginRight="150dp"
+                android:layout_marginBottom="50dp"
+                android:text="Medium Fringe"
+                app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="300dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="100dp"
+                android:layout_marginRight="100dp"
+                android:background="#c1c1c1"
+                android:src="@drawable/buzz" />
+
+            <Button
+                android:id="@+id/buzz"
+                android:layout_width="218dp"
+                android:layout_height="65dp"
+                android:layout_marginStart="100dp"
+                android:layout_marginLeft="200dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginEnd="100dp"
+                android:layout_marginRight="150dp"
+                android:layout_marginBottom="50dp"
+                android:text="Buzz cut"
+                app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
